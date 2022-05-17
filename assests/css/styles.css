@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(/assests/images/contact-us.jpg);
+    height: 120vh;
+    /* background-size: cover; */
+  
+
+  
+  
+}
+.navbar{
+    display: flex;
+    /* background-color:white; */
+    background: rgba(76, 175, 80, 0.5);
+  
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+
+  
+}
+.navbar .logo{
+    padding-left: 60px;
+    color: white;
+    
+}
+.navbar > .links > ul{
+    display: inline;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.navbar > .links > ul > li{
+    display: inline;
+    padding: 10px;
+    color: white;
+    
+}
+.navbar > .nav-btn {
+  padding: 0px 50px;
+}
+.navbar > .nav-btn > #btn-1{
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(35, 219, 59);
+    color: white;
+    font-size: 18px;
+}
+.navbar > .nav-btn > #btn-2{
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(35, 219, 59);
+    color: white;
+    font-size: 18px;
+}
+.header > .txt{
+    padding-top: 350px;
+    padding-left: 400px;
+    font-size: 50px;
+    color: white;
+}
+.find-job > .head-txt{
+    font-size: 30px;
+    align-items: center;
+    padding: 100px 0px 0px 500px;
+
+}
+.find-job .cards :hover{
+    color: rgba(76, 175, 80, 0.5);
+}
+
+.find-job > .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.find-job > .cards > .card{
+    height: 200px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px;
+    align-items: center;
+    background-color: grey;
+    align-items: center;
+   
+    /* margin: 30px 0 0 200px; */
+}
+.find-job > .cards > .card > h1{
+    padding-top: 70px;
+
+}
+.find-job > .cards > .card > p{
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
