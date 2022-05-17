@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap');
+body{
+    margin: 50px;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+}
+.choose-text{
+    padding: 30px;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+h2{
+    text-align: center;
+    padding-right: 50px;
+}
