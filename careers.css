@@ -1,0 +1,180 @@
+.find{
+    /* background-color: aquamarine; */
+    justify-content: center;
+    display:flex;
+    padding: 40px;
+    font-weight: bold;
+}
+
+/* CSS Design for section 1 */
+.sect1{
+    display: flex;
+    justify-content: space-between;
+}
+.sect1 > .secth{
+     width: 50%;
+     height: 200;
+     padding: 80px;
+     /* padding-left: 100px; */
+     margin-left: 100px;
+     margin: 80px 0px 0px 50px;
+     background-color: rgb(248,248,248);
+     /* border: 2px solid red;  */
+}
+
+.sect1 > .secth >.apply{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* width: 100px;
+    height: 50px; */
+    /* border: 1px solid green; */
+    font-weight: bold;
+}
+.sect1 > .secth >.apply span{
+    font-weight: bold;
+}
+.sect1 > .category-1{
+    /* width: 300px;
+    /* height: 400px; */
+     /* padding: 80px;
+    margin: 80px; 
+    background-color: rgb(230, 240, 237);
+    border: 2px solid red; 
+    margin-right: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;  */
+    width: 400px;
+    padding: 80px;
+    margin: 80px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+    margin-right: 50px;
+
+}
+/* CSS Design for section 2 */
+.sect2{
+    display: flex;
+    justify-content: space-between;
+}
+.sect2 > .secth2{
+    width: 50%;
+    height: 200;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+
+}
+.sect2 > .secth2 > .apply1,span{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* width: 100px;
+    height: 50px; */
+    /* border: 1px solid green;   */
+    font-weight: bold;
+}
+.sect2 >.category-2{
+    width: 400px;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+    margin-right: 50px;
+}
+/* Design for section 3 */
+.sect3{
+    display: flex;
+    justify-content: space-between;
+}
+.sect3 > .secth3{
+    width: 50%;
+    height: 200;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+
+}
+.sect3 > .secth3 .apply3,span{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* width: 100px;
+    height: 50px; */
+    /* border: 1px solid green;   */
+    font-weight: bold;
+}
+.sect3 >.category-3{
+    width: 400px;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+    margin-right: 50px;
+}
+/* Design section 4 */
+.sect4{
+    display: flex;
+    justify-content: space-between;
+}
+.sect4 > .secth4{
+    width: 50%;
+    height: 200;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+
+}
+.sect4 > .secth4 .apply4{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* width: 100px;
+    height: 50px; */
+    /* border: 1px solid green;   */
+    font-weight: bold;
+}
+.sect4 >.category-4{
+    width: 400px;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+    margin-right: 50px;
+}
+/* Design Section 5th */
+.sect5{
+    display: flex;
+    justify-content: space-between;
+}
+.sect5 > .secth5{
+    width: 50%;
+    height: 200;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+
+}
+.sect5 > .secth5 .apply5{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* width: 100px;
+    height: 50px; */
+    /* border: 1px solid green;   */
+    font-weight: bold;
+    
+}
+.sect5 >.category-5{
+    width: 400px;
+    padding: 80px;
+    margin: 20px 0px 0px 50px;
+    background-color: rgb(248,248,248);
+    /* border: 2px solid red;  */
+    margin-right: 50px;
+}
