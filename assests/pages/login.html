@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assests/css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
     <title>LOGIN</title>
 </head>
 <body>
-    <div class="login-page">
-        <div class="login-header">
-            <h1 class="header">LOGIN </h1>
+    <div class="container">
+        <div class="header">
+            <h2>Login</h2>
         </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="UserName" id="username" />
+              
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="email" placeholder="Email" id="email" />
+            
+            </div>
+        
+            <a href="/index.html"><li><button>submit</button></li></a>
+            <li><link rel="stylesheet" href="../pages/register.html">Dont Have an account? <span>register here.</span></li>
            
-            <div class="login-details">
-                <form class="login-form">
-                    <label>USERNAME</label>
-                    <input type="text" name="username" id="username-form" class="login-form-field" placeholder="Username">
-                    <label>PASSWORD</label>
-                    <input type="password" name="password" id="password-form" class="login-form-field" placeholder="Password">
-    
-                    <label>LOGIN</label>
-                    <input type="submit" value="Login" id="login-form">
-                </form>  
-            </div> 
+            
+        </form>
     </div>
+    
    
 
 </body>

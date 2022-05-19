@@ -9,22 +9,43 @@ body{
     padding:0;
     font-family:'Poppins', sans-serif;
 }
+#why> h2{
+    font-size: 50px;
+    padding: 20px;
+    align-items: center;
+
+}
+.choose > .image-us{
+    padding: 20px;
+}
 .choose{
     display: flex;
     flex-direction: row;
 }
 .choose-text{
     padding: 30px;
+    font-size: 25px;
+    align-items: center; 
 }
+.choose-text > h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
 .team{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
     padding-top: 50px;
     padding-right: 300px;
 }
+
+#team > h2{
+    font-size: 100px;
+}
 .team > .Donna{
-    border-radius: 50px;
+    margin-left: 100px;
+    
 }
 h2{
     text-align: center;
