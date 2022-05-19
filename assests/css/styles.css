@@ -59,8 +59,8 @@ li::after{
 .header > .txt{
     padding-top: 350px;
     padding-left: 400px;
-    font-size: 50px;
-    color: white;
+    font-size: 55px;
+    color:black;
 }
 .find-job > .head-txt{
     font-size: 30px;
