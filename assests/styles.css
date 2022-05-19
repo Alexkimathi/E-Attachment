@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(./images/contact-us.jpg);
+    height: 110vh;
+    /* background-size: cover; */
+    background-attachment: fixed;
+
+  
+  
+}
+.navbar{
+    display: flex;
+    /* background-color:white; */
+    background: rgba(76, 175, 80, 0.5);
+  
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+
+  
+}
+.navbar .logo{
+    padding-left: 60px;
+    color: white;
+    
+}
+.navbar > .links > ul{
+    display: inline;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.navbar > .links > ul > li{
+    display: inline;
+    padding: 10px;
+    color: white;
+    
+}
+.navbar > .nav-btn {
+  padding: 0px 50px;
+}
+.navbar > .nav-btn > #btn-1{
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(35, 219, 59);
+    color: white;
+    font-size: 18px;
+}
+.navbar > .nav-btn > #btn-2{
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(35, 219, 59);
+    color: white;
+    font-size: 18px;
+}
+.header > .txt{
+    padding-top: 350px;
+    padding-left: 400px;
+    font-size: 50px;
+    color: white;
+}
