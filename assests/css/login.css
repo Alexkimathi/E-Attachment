@@ -1,91 +1,42 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
- body{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     min-height: 100vh;
-     background-color: grey;
-
- }
-
- #create-account{
-     width: 400px;
-     padding: 20px;
-     text-transform: uppercase;
-     background-color: white;
-     border-radius: 10px;
- }
- #create-account > .title{
-     margin-bottom: 20px;
-
- }
- #create-account > .input-group{
-    margin: 20px 0;
-    position: relative;
-
-}
-#create-account > .input-group > label{
-  display: inline-block;
-  margin-bottom: 5px;
-  
+ 
+body{
+    background-image: url("../images/hero_1.jpg");  
 }
 
-#create-account > .input-group > input{
-    display: block;
-    width: 100%;
+
+.login-page{
+    border: 1px solid rgb(7, 7, 7);
+    width: 50vw;
+    height: 50vh;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+ 
+
+}
+
+.login-form{
+    align-items: center;
+    font-weight: 600;
+}
+.login-header{
+    text-align: center;
+}
+.login-details{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#login-form{
+    padding: 5px;
+    width: 70px;
+}
+#password-form{
     padding: 10px;
-    border-radius: 5px;
+    text-size-adjust: 10px;
 }
-.Success input{
-    border: 3px green solid;
-}
-.error input{
-    border :3px red solid
-
-}
-
-#create-account > .input-group > i{
-   position: absolute;
-   right: 10px;
-   top: 35px;
-   visibility: hidden;
-    
-}
-.Success > i fa-circle-check{
-    visibility: visible;
-    color: green;
-}
-.error i .fa-solid fa-circle-exclamation{
-    visibility: visible;
-    color: red;
-}
-
-#create-account > .input-group > p{
-   font-size: 15px;
-   color: red;
-   visibility: hidden;
-     
-}
-.error p{
-    visibility: visible;
-}
-
- .btn{
-    width: 100%;
+#username-form{
     padding: 10px;
-    background-color: chocolate;
-    font-size: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: white;
-    border: none;text-transform: uppercase;
-  
-      
-}
-.Success input{
-    border: 3px green solid;
+    text-size-adjust: 10px;
 }

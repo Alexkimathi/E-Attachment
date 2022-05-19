@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap');
+body{
+    margin: 15px;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+#blog{
+    display: flex;
+    justify-content: space-between;
+}
+.key-blog{
+    display: flex;    
+}
+.im-blog, .domain-blog, .day-one, .success-how {
+    display: inline-block;
+  border-radius: 150px;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.im-blog img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.opportunity{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+h{
+    font-size: large;
+    font-weight: bold ;
+    padding-right: 20px;
+}
+.articles{
+    padding-right: 250px;
+}
+p2:hover{
+    color:black;
+    border:2px solid limegreen;
+}
