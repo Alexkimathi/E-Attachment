@@ -3,10 +3,9 @@
     padding: 0;
 }
 .header{
-    background-image: url(/assests/images/contact-us.jpg);
+    background-image: url(../images/contact-us.jpg);
     height: 120vh;
     /* background-size: cover; */
-  
 
   
   
@@ -18,8 +17,7 @@
   
     justify-content: space-between;
     padding: 30px;
-    margin: 20px;
-    border-radius: 20px;
+  
 
   
 }
@@ -55,7 +53,11 @@ li:hover{
     background-color: rgb(35, 219, 59);
     color: white;
     font-size: 18px;
+<<<<<<< HEAD
     display: inline-block;
+=======
+    
+>>>>>>> 2e5d1b4feece4fa0460c8a38339e5dc7ed824f7a
     
 }
 /* .navbar > .nav-btn > a > li #btn-2{

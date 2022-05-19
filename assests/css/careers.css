@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .find{
     /* background-color: aquamarine; */
     justify-content: center;
@@ -16,6 +20,7 @@
     font-weight: lighter;
     background-color: rgb(248,248,248);
 }
+
 /* CSS Design for section 1 */
 .sect1{
     display: flex;
@@ -25,36 +30,30 @@
      width: 50%;
      height: 200;
      padding: 80px;
-     /* padding-left: 100px; */
+     border-radius: 10px;
+  
      margin-left: 100px;
      margin: 80px 0px 0px 50px;
      background-color: rgb(248,248,248);
      /* border: 2px solid red;  */
 }
 
-.sect1 > .secth >.apply{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+.sect1 > .secth >.apply > .now{
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 5px;
     /* width: 100px;
     height: 50px; */
     /* border: 1px solid green; */
 }
-.sect1 > .secth >.apply span{
-    font-weight: lighter;
-    font-size: 24px;
+.sect1 > .secth >.apply{
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 5px;
+ 
 }
 .sect1 > .category-1{
-    /* width: 300px;
-    /* height: 400px; */
-     /* padding: 80px;
-    margin: 80px; 
-    background-color: rgb(230, 240, 237);
-    border: 2px solid red; 
-    margin-right: 80px;
-    margin-left: 20px;
-    margin-top: 20px;
-    text-align: center;  */
+
     width: 400px;
     padding: 80px;
     margin: 80px 0px 0px 50px;
@@ -77,16 +76,10 @@
     /* border: 2px solid red;  */
 
 }
-.sect2 > .secth2 > .apply1,span{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    /* width: 100px;
-    height: 50px; */
-    /* border: 1px solid green;   */
-    font-weight: lighter;
-    font-size: 24px;
-    /* color: green; */
+.sect2 > .secth2 > .apply > .now{
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 5px;
 }
 .sect2 >.category-2{
     width: 400px;
@@ -110,10 +103,10 @@
     /* border: 2px solid red;  */
 
 }
-.sect3 > .secth3 .apply3,span{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+.sect3 > .secth3 > .apply >.now{
+   margin-left: 200px;
+   padding: 20px;
+   border-radius: 5px;
     /* width: 100px;
     height: 50px; */
     /* border: 1px solid green;   */
@@ -140,10 +133,10 @@
     /* border: 2px solid red;  */
 
 }
-.sect4 > .secth4 .apply4{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+.sect4 > .secth4 > .apply > .now{
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 5px;
     /* width: 100px;
     height: 50px; */
     /* border: 1px solid green;   */
@@ -171,14 +164,10 @@
     /* border: 2px solid red;  */
 
 }
-.sect5 > .secth5 .apply5{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    /* width: 100px;
-    height: 50px; */
-    /* border: 1px solid green;   */
-    font-weight: bold;
+.sect5 > .secth5> .apply > .now{
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 5px;
     
 }
 .sect5 >.category-5{
@@ -328,7 +317,6 @@
     margin: 100px;
     padding-top: 100px;
     font-weight: 300;
-    border: 2px solid red;
 }
 .footer > .footer-head span{
     color: #FAFF00;
