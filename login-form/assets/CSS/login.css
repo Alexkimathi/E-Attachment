@@ -1,0 +1,42 @@
+ 
+body{
+    background-image: url("../images/hero_1.jpg");  
+}
+
+
+.login-page{
+    border: 1px solid rgb(7, 7, 7);
+    width: 50vw;
+    height: 50vh;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+ 
+
+}
+
+.login-form{
+    align-items: center;
+    font-weight: 600;
+}
+.login-header{
+    text-align: center;
+}
+.login-details{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#login-form{
+    padding: 5px;
+    width: 70px;
+}
+#password-form{
+    padding: 10px;
+    text-size-adjust: 10px;
+}
+#username-form{
+    padding: 10px;
+    text-size-adjust: 10px;
+}

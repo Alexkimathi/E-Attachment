@@ -328,6 +328,7 @@
     margin: 100px;
     padding-top: 100px;
     font-weight: 300;
+    border: 2px solid red;
 }
 .footer > .footer-head span{
     color: #FAFF00;

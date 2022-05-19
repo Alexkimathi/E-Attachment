@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap');
+body{
+    margin: 50px;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+}
+.choose-text{
+    padding: 30px;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+h2{
+    text-align: center;
+    padding-right: 50px;
+}
+.footer{
+    margin-top: 20px;
+    height: 500px;
+    background-color: grey;
+    background: linear-gradient(50deg, rgba(0,0,0,0.9) 0%, rgba(76, 175, 80, 0.8));
+}
+.footer > .footer-head{
+    margin: 0;
+    padding: 0;
+}
+.footer > .footer-head h1{
+    font-size: 30px;
+    color: white;
+    margin: 100px;
+    padding-top: 100px;
+    font-weight: 300;
+}
+.footer > .footer-head span{
+    color: #FAFF00;
+}
+.footer > .social > .icon-links {
+    margin-left: 100px;
+    color: white;
+}
+.footer > .social > .icon-links a{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+   text-decoration: none;
+   font-size: 30px;
+}
+.footer  .social{
+    display: flex;
+}
+.footer > .social> .heading {
+    margin-left: 250px;
+}
+.footer > .social> .heading h1{
+    font-size: 18px;
+    color: white;
+}
+.footer > .social> .heading li{
+    font-size: 18px;
+    color: white;
+}
+.part-1, .part-2{
+    color: white;
+}
