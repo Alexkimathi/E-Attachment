@@ -8,6 +8,16 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.blogs{
+    margin-left: 100px;
+}
+ .key-blog > .opportunity > h1{
+    font-size: 30px;
+}
+.blogs > .key-blog > .opportunity > h2{
+    font-size: 20px;
+    color: blue;
+}
 .key-blog{
     display: flex;    
 }
@@ -22,6 +32,7 @@ body{
     width:100%;
     height:100%;
     object-fit: cover;
+    
 }
 .opportunity{
     padding-top: 100px;
@@ -35,7 +46,15 @@ h{
 .articles{
     padding-right: 250px;
 }
-p2:hover{
+.articles h1{
+    font-size: 25px;
+
+}
+p:hover{
     color:black;
     border:2px solid limegreen;
+}
+body > h1{
+    font-size: 50px;
+    padding-left: 600px;
 }
