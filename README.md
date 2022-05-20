@@ -4,8 +4,8 @@
 ## By Alex kimathi murithi , jeptoo leonida , kelvin kariuki, james omenda
 
 ## screenshot
-![image](./assests/images/Landing%20Page.png)
-![image](./assests/images/Property%20Page.png)
+![image](./assests/images/Untitled.png)
+
 
 ## Table Of Content
 
