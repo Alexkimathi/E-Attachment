@@ -1,7 +1,7 @@
 # E-Attachment
 
 
-## By Alex kimathi murithi
+## By Alex kimathi murithi , jeptoo leonida , kelvin kariuki, james omenda
 
 ## screenshot
 ![image](./assests/images/Landing%20Page.png)

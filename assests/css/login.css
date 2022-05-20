@@ -47,6 +47,9 @@
 	 display: inline-block;
 	 margin-bottom: 5px;
  }
+ .formp{
+	 margin-top: 20px;
+ }
  
  .form-control input {
 	 border: 2px solid white;
